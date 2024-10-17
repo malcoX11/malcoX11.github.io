@@ -1,0 +1,87 @@
+body{
+    background-color:#88bdbc ;
+    font-size:medium;
+    color: white;
+   
+    
+}
+nav {
+     text-align: center;
+     border: 1px solid white;
+     border-style:double;
+     margin-bottom: 30px;
+     background-color: #254e58;
+     
+}
+
+h3 {
+    background-color: #254e58;
+    border: 1px solid white;
+    
+}
+h3 ~ p {
+    text-indent: 30px;
+}
+section {
+    margin-bottom: 30px;
+}
+section ul {
+    text-indent: 60px; /* Indentation for the entire UL */
+    list-style:disc;
+    
+    list-style-position: inside; /* Optional: Moves bullets inside the indented area */
+    
+    padding-left: 0; /* Removes default padding, if necessary */
+}
+
+section ul li {
+    text-indent: 60px; /* Indentation for each list item */
+    font-weight: bold;
+    }
+summary {
+        text-indent: 30px;
+        cursor:pointer; /* Change cursor style to pointer for summary */
+        font-weight: bold; /* Make the summary bold */
+        margin-bottom: 10px; /* Space below the summary */
+    }
+summary:hover{
+    color: #88bdbc;
+}
+    
+details {
+        display: inline;
+        width: 50%;
+        color: white;
+        background-color:#112d32 ; /* Background color for the details */
+        padding: 10px; /* Padding for better look */
+        border-radius: 5px; /* Rounded corners */
+        margin-bottom: 10px; /* Space below each details */
+        text-indent: 60px;
+    }
+
+@media (max-width:992px){
+    body{
+        font-size: large;
+        
+    }
+    
+}
+
+@media (max-width:768px){
+    body {
+        font-size: medium;
+        
+    }
+}
+
+@media (max-width:576px){
+    body {
+        font-size:small;
+        
+    }
+}
+
+
+
+
+

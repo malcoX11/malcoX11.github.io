@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Full height of viewport */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center elements vertically */
+    justify-content: center; /* Center elements horizontally */
+}
+
+.bg-image {
+    background-image: url('welcome-pic.jpg'); /* High-resolution image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    position: absolute; /* Make it an absolute positioned element */
+    top: 0;
+    left: 0;
+    height: 100%; /* Full height */
+    width: 100%; /* Full width */
+    z-index: -1; /* Place behind other elements */
+}
+
+.content {
+    position: relative; /* Enable z-index usage */
+    z-index: 1; /* Set higher z-index to overlay the background */
+    color: white; /* Set text color */
+    padding: 20px; /* Add padding */
+    text-align: center; /* Center text */
+    background-color: #112d32; /* Semi-transparent background for readability */
+    border-radius: 10px; /* Optional: rounded corners for aesthetics */
+}
+
